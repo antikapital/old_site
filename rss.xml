@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>antikapital</title>
+        <link></link>
+        <description>RSS feed for antikapital</description>
+        <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
+                    <item>
+                <title>Drupal desacoplado</title>
+                <description><![CDATA[<p>Hace poco un colega me platicó acerca de un desarrolloque realizó utilizando drupa <em>desacoplado</em>, me pareció muy interesante y de alcances prometedores, así que trataré de reproducir su explicación.</p>
+
+<h2>Drupal <em>out of the box</em></h2>
+
+<p>Drupal por default, igual que otros editores de contenido escritos en <abbr title="Preprocessor Hypertext Php">PHP</p>
+]]></description>
+                <link>/blog/2016/02/18/drupal-desacoplado</link>
+                <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
+                <guid>/blog/2016/02/18/drupal-desacoplado</guid>
+            </item>
+                    <item>
+                <title>Creando un sitio estático</title>
+                <description><![CDATA[<blockquote>
+  <p>Wordpress ocupa demasiada infraestructura para montar un blog; tome en cuenta que por cada website de este tipo se instalan un servidor web y una base de datos y que cada visita implica un monton de acciones de programación en PHP. Todo para un simple hipertexto acompañado de su imagen.</p>
+</blockquote>
+
+<h3>La alternativa de los generadores estáticos</h3>
+
+<p>Desde hace unos años comenzaron a popularizarse los generadores de sitios estáticos entre <em>geeks-retro</em>; pero han continuado su avance con otros desarrrolladores porque son eficientes y fáciles.</p>
+
+<p>La premisa es la siguiente: instalas el generador en tu computadora personal, generas y administras archivos de texto plano, y finalmente el generador compila tus archivos creando un website en HTML que montas en el servidor.</p>
+
+<h3>Fácil y rápido</h3>
+
+<p>Generar un nuevo post es mucho más sencillo que usando Wordpress, Drupal u otro CMS; sólo tienes que crear un archivo de texto plano, sin acceder por un <em>login</em>y sin necesitar internet mientras redactas, finalmente y el generador lo convertira en un conjunto de páginas HTML.</p>
+
+<p>Claro, esto puede ser fácil si estás habituado a usar editores de texto plano o editar en consola <em>(si odias editores como Microsoft Word, puede ser tu mejor opción)</em>, sin usar editores <em>wysiwyg</em> y añadiendo formato con la sintaxis de Markdown.<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links">Mirar más sobre Markdown.</a></p>
+
+<h3>Ligerito</h3>
+
+<p>Tu sitio web volará; porque el servidor en el que lo alojes no tendrá que realizar ninguna acción al vuelo, sólo despachara archivos ya generados, olvidate de esos tediosos segundos de espera.</p>
+
+<h3>Opciones para comenzar</h3>
+
+<blockquote>
+  <p>Si no tienes mucha experiencia trabajando en linea de comandos instalar y configurar un generador de sitios estáticos te ayudará a practicar y sentirte seguro. <strong>¡Inténtalo!</strong></p>
+</blockquote>
+
+<h4>Jekyll</h4>
+
+<p>Es el generador de sitios estáticos más famoso, funciona con el lenguaje de programación <em>Ruby</em>. Es una buena opción para comenzar porque hay mucha documentación. <a href="https://jekyllrb.com/">Mira su website.</a></p>
+
+<h4>Sculpin</h4>
+
+<p>Trabaja del mismo modo que Jekyll, pero funciona con PHP. <a href="https://sculpin.io/">Acá su sitio.</a></p>
+
+<h4>Spress</h4>
+
+<p>También trabaja con PHP, y utiliza elementos del framework Simfony, es mi favorito.
+<a href="http://spress.yosymfony.com/">Puedes mirar su web aquí.</a></p>
+]]></description>
+                <link>/blog/2016/02/13/creando-un-sitio-estatico</link>
+                <pubDate>Sat, 13 Feb 2016 00:00:00 +0000</pubDate>
+                <guid>/blog/2016/02/13/creando-un-sitio-estatico</guid>
+            </item>
+                    <item>
+                <title>Mis notas de markdown</title>
+                <description><![CDATA[<p>Notas y referecias básicas para redactar documentos en sintaxis .md.</p>
+
+<h3>Cabeceras</h3>
+
+<h1>Título 1</h1>
+
+<pre><code># Título 1
+</code></pre>
+
+<h2>Título 2</h2>
+
+<pre><code>## Título 2
+</code></pre>
+
+<h3>Título 3</h3>
+
+<pre><code>### Título 3
+</code></pre>
+
+<h4>Título 4</h4>
+
+<pre><code>#### Título 4
+</code></pre>
+
+<h5>Título 5</h5>
+
+<pre><code>##### Título 5
+</code></pre>
+
+<h6>Título 6</h6>
+
+<pre><code>###### Título 6
+</code></pre>
+
+<h3>Formatos al texto</h3>
+
+<p>Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>Negritas con doble asterisco</strong>. Nullam dignissim convallis est.</p>
+
+<pre><code>**Aquí adentro el texto**
+</code></pre>
+
+<p><em>Itálicas con un asterisco</em>. Donec faucibus.</p>
+
+<pre><code>*Aquí adentro el texto*
+</code></pre>
+
+<p><strong>El subíndice va entre una etiqueta sub</strong> H<sub>2</sub>O. Nam sit amet sem.</p>
+
+<pre><code>H&lt;sub&gt;2&lt;/sub&gt;O
+</code></pre>
+
+<p><em>Las citas dentro del texto</em> The New York Times <cite>(las citas rápidas dentro del text)</cite>.</p>
+
+<pre><code>&lt;cite&gt;Aca adentro el texto citado&lt;/cite&gt;
+</code></pre>
+
+<p><u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante.</p>
+
+<pre><code>&lt;u&gt;Texto con underline&lt;/u&gt;
+</code></pre>
+
+<p><em>Las abreviaturas</em> <abbr title="Instituto Politécnico Nacional">IPN</abbr> are our tools. Mauris a ante.</p>
+
+<pre><code>&lt;abbr title="Texto expandido"&gt;Abrebiación&lt;/abbr&gt;
+</code></pre>
+
+<h3>Bloques de cita</h3>
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.</p>
+</blockquote>
+
+<pre><code>&gt; Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
+</code></pre>
+
+<h3>Listas</h3>
+
+<h4>Ordenadas</h4>
+
+<ol>
+<li>Item one
+
+<ol>
+<li>sub item one</li>
+<li>sub item two</li>
+<li>sub item three</li>
+</ol></li>
+<li>Item two</li>
+</ol>
+
+<pre><code class="markdown">1. Item one
+    1. sub item one
+    2. sub item two
+    3. sub item three
+2. Item two
+</code></pre>
+
+<h4>Sin orden</h4>
+
+<ul>
+<li>Item one</li>
+<li>Item two</li>
+<li>Item three</li>
+</ul>
+
+<pre><code class="markdown">* Item one
+* Item two
+* Item three
+</code></pre>
+
+<h2>Tablas</h2>
+
+<table>
+<thead>
+<tr>
+  <th>Tables</th>
+  <th align="center">Are</th>
+  <th align="right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>col 3 is</td>
+  <td align="center">right-aligned</td>
+  <td align="right">$1600</td>
+</tr>
+<tr>
+  <td>col 2 is</td>
+  <td align="center">centered</td>
+  <td align="right">$12</td>
+</tr>
+<tr>
+  <td>zebra stripes</td>
+  <td align="center">are neat</td>
+  <td align="right">$1</td>
+</tr>
+</tbody>
+</table>
+
+<pre><code class="markdown">| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+</code></pre>
+
+<h2>Código</h2>
+
+<p>Usando <a href="http://highlightjs.org/">Highlight.js</a>. Simplemente dejar 4 espacios para pequeños códigos.</p>
+
+<pre><code>&lt;div id="awesome"&gt;
+    &lt;p&gt;This is great isn't it?&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<pre><code class="markdown">    &lt;div id="awesome"&gt;
+        &lt;p&gt;This is great isn't it?&lt;/p&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<p>O bien insertando entre triples backtrics `</p>
+]]></description>
+                <link>/notas/2016/02/01/mis-notas-de-markdown</link>
+                <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+                <guid>/notas/2016/02/01/mis-notas-de-markdown</guid>
+            </item>
+            </channel>
+</rss>

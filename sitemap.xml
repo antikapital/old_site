@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc></loc>
+    </url>
+            <url>
+            <loc>/blog/2016/02/18/drupal-desacoplado</loc>
+            <lastmod>2016-02-18</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+            <url>
+            <loc>/blog/2016/02/13/creando-un-sitio-estatico</loc>
+            <lastmod>2016-02-13</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+            <url>
+            <loc>/notas/2016/02/01/mis-notas-de-markdown</loc>
+            <lastmod>2016-02-01</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+    </urlset>
