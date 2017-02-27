@@ -6,12 +6,42 @@
         <description>RSS feed for antikapital</description>
         <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                     <item>
+                <title>Crear una búsqueda con filtros en Drupal 8</title>
+                <description><![CDATA[<blockquote>
+  <p>Generar un sistema de búsqueda que facilite la vida a los usuarios es una tarea prioritaria para cualquier sitio web, está puede ser la ventaja competitiva para un modelo de negocio online.</p>
+</blockquote>
+
+<h2>Configurando un sistema de búsqueda en <em>Drupal 8</em></h2>
+
+<h3>Los módulos</h3>
+
+<p>La Primera tarea necesaria para crear nuestro sistema consiste en instalar los módulos necesarios.</p>
+
+<p>Usaremos <strong>Search API</strong>, y <strong>Facets</strong>, módulos <em>contibuidos</em> que aunque se encuentran en versiones "inestables", recién migradas del Drupal 7, son bastante funcionales.</p>
+
+<p>Estos módulos son instalados y activados de manera usual en nuestro <em>Drupal 8</em>, así que ahora podemos configurarlos en la ruta <code>tu-dominio.com/admin/search&amp; metadata</code>.</p>
+
+<h3>El servidor</h3>
+
+<p><strong>Search API</strong> es un módulo que provee a Drupal de funciones de búsqueda superiores al <strong>Search</strong> que viene cargado por defecto, es probable que un proyecto simple como un blog pueda solucionarse con el <strong>Search</strong> básico.</p>
+
+<h3>El Index</h3>
+
+<h3>La vista</h3>
+
+<h3>Los facets</h3>
+]]></description>
+                <link>/notas/2017/02/25/crear-una-busqueda-con-filtros-en-drupal-8</link>
+                <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+                <guid>/notas/2017/02/25/crear-una-busqueda-con-filtros-en-drupal-8</guid>
+            </item>
+                    <item>
                 <title>Drupal desacoplado</title>
                 <description><![CDATA[<p>Hace poco un colega me platicó acerca de un desarrolloque realizó utilizando drupa <em>desacoplado</em>, me pareció muy interesante y de alcances prometedores, así que trataré de reproducir su explicación.</p>
 
 <h2>Drupal <em>out of the box</em></h2>
 
-<p>Drupal por default, igual que otros editores de contenido escritos en <abbr title="Preprocessor Hypertext Php">PHP</p>
+<p>Drupal por default, igual que otros editores de contenido escritos en <abbr title="Preprocessor Hypertext Php">PHP corre en un servidor, normalmente <em>Apache</em> o <em>NGINX</em>, y construye</p>
 ]]></description>
                 <link>/blog/2016/02/18/drupal-desacoplado</link>
                 <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>

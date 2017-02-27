@@ -2,23 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-<title>HttpServer</title>
+<title>Crear una búsqueda con filtros en Drupal 8</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A simple HTTP server for PHP.">
+<meta name="description" content="Una guía rápida para generar un sistema de búsqueda con filtros cominados, como los utilizados en tiendas online.">
 <meta name="author" content="Julio César Ibañez Rangel">
 <meta name="generator" content="Spress v2.1.3">
 
             <meta name="twitter:card" content="summary">
         <meta name="twitter:image" content="/assets/img/spresso-logo.png">
-    <meta name="twitter:title" content="HttpServer">
-    <meta name="twitter:description" content="A simple HTTP server for PHP.">
+    <meta name="twitter:title" content="Crear una búsqueda con filtros en Drupal 8">
+    <meta name="twitter:description" content="Una guía rápida para generar un sistema de búsqueda con filtros cominados, como los utilizados en tiendas online.">
     <meta name="twitter:creator" content="@anti_kapital">
 
 <meta property="og:locale" content="es_MX">
 <meta property="og:type" content="article">
-<meta property="og:title" content="HttpServer">
-<meta property="og:description" content="A simple HTTP server for PHP.">
-<meta property="og:url" content="/projects/http-server-php">
+<meta property="og:title" content="Crear una búsqueda con filtros en Drupal 8">
+<meta property="og:description" content="Una guía rápida para generar un sistema de búsqueda con filtros cominados, como los utilizados en tiendas online.">
+<meta property="og:url" content="/notas/2017/02/25/crear-una-busqueda-con-filtros-en-drupal-8">
 <meta property="og:site_name" content="antikapital">
 
 <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="antikapital Feed">
@@ -66,25 +66,61 @@
 </div>
 
         <div class="container spresso-wrap">
-                <h2>A simple HTTP server for PHP.</h2>
+                <article class="post">
+    <header>
+        <h1>
+            <a href="/notas/2017/02/25/crear-una-busqueda-con-filtros-en-drupal-8">Crear una búsqueda con filtros en Drupal 8</a>
+        </h1>
+    </header>
 
-<p>HttpServer is a simple HTTP server powerd <a href="http://reactphp.org/">REACT</a>.</p>
+    <img src="/images/search.jpg" class="img-responsive" alt="Post image">
+    <br>
+    
+    <blockquote>
+  <p>Generar un sistema de búsqueda que facilite la vida a los usuarios es una tarea prioritaria para cualquier sitio web, está puede ser la ventaja competitiva para un modelo de negocio online.</p>
+</blockquote>
 
-<p><a href="https://travis-ci.org/yosymfony/HttpServer"><img src="https://travis-ci.org/yosymfony/HttpServer.svg?branch=master" alt="Build Status" /></a></p>
+<h2>Configurando un sistema de búsqueda en <em>Drupal 8</em></h2>
 
-<h2>Installation</h2>
+<h3>Los módulos</h3>
 
-<p>Use <a href="http://getcomposer.org/">Composer</a> to install Yosyfmony HttpServer package:</p>
+<p>La Primera tarea necesaria para crear nuestro sistema consiste en instalar los módulos necesarios.</p>
 
-<p>Add the following to your <code>composer.json</code> and run <code>composer update</code>.</p>
+<p>Usaremos <strong>Search API</strong>, y <strong>Facets</strong>, módulos <em>contibuidos</em> que aunque se encuentran en versiones "inestables", recién migradas del Drupal 7, son bastante funcionales.</p>
 
-<pre><code>"require": {
-    "yosymfony/httpserverl": "1.2.*"
-}
-</code></pre>
+<p>Estos módulos son instalados y activados de manera usual en nuestro <em>Drupal 8</em>, así que ahora podemos configurarlos en la ruta <code>tu-dominio.com/admin/search&amp; metadata</code>.</p>
 
-<p>More information about the package on <a href="https://packagist.org/packages/yosymfony/httpserver">Packagist</a>.</p>
+<h3>El servidor</h3>
 
+<p><strong>Search API</strong> es un módulo que provee a Drupal de funciones de búsqueda superiores al <strong>Search</strong> que viene cargado por defecto, es probable que un proyecto simple como un blog pueda solucionarse con el <strong>Search</strong> básico.</p>
+
+<h3>El Index</h3>
+
+<h3>La vista</h3>
+
+<h3>Los facets</h3>
+
+    
+            <footer>    
+            <p>
+            	Posted by Julio César Ibañez Rangel on <time pubdate="pubdate">2017-02-25</time>
+            </p>
+
+                        <ul class="list-unstyled">
+                                    <li>
+                        <i class="fa fa-tags"></i>
+                                                    <a href="/tags/drupal">drupal</a>, 
+                                                    <a href="/tags/search-api">search api</a>, 
+                                                    <a href="/tags/drupal-8">drupal 8</a> 
+                                            </li>
+                                                    <li>
+                        <i class="fa fa-folder"></i>
+                                                    <a href="/categories/notas">notas</a> 
+                                            </li>
+                            </ul>
+                    </footer>
+
+            </article>
         </div>
             
         <footer id="footer">
@@ -149,6 +185,6 @@
                             <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
                 <script>hljs.initHighlightingOnLoad();</script>
                         
-                    </footer>
+                        </footer>
     </body>
 </html>
